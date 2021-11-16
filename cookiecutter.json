@@ -1,6 +1,5 @@
 {
-  "project_slug": "fastapi-project",
-  "project_name": "{{ cookiecutter.project_slug }}",
-  "port": "8000",
-  "frontend": ["react", "vue"]
+  "create_readme": "y",
+  "create_file_one": "y",
+  "create_file_two": "n"
 }
