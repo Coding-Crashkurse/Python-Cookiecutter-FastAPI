@@ -1,4 +1,6 @@
 {
+  "project_slug": "test",
+  "package_name": "wuff",
   "create_readme": "y",
   "create_file_one": "y",
   "create_file_two": "n"
