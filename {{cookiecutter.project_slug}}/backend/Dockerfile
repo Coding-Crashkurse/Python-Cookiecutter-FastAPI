@@ -9,6 +9,15 @@ RUN apt update && \
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
+{%- if cookiecutter.frontend == "vue" -%}
+# Ich bin vue Content
+
+{%- elif cookiecutter.license == "react" -%}
+# Ich bin react Content
+
+{% endif %}
+
+
 COPY . .
 
 EXPOSE {{cookiecutter.port}}

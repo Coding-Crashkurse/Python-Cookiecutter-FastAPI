@@ -1,5 +1,6 @@
 {
   "project_slug": "fastapi-project",
   "project_name": "{{ cookiecutter.project_slug }}",
-  "port": "8000"
+  "port": "8000",
+  "frontend": ["react", "vue"]
 }
