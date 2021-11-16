@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 {%- if cookiecutter.frontend == "vue" -%}
 # Ich bin vue Content
 
-{%- elif cookiecutter.license == "react" -%}
+{%- elif cookiecutter.frontend == "react" -%}
 # Ich bin react Content
 
 {% endif %}
